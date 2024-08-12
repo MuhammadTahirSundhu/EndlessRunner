@@ -121,11 +121,20 @@ function updateGame() {
 }
 
 // Handle touch events
+// Handle touch events
 canvas.addEventListener('touchstart', () => {
     if (playerY + player.height >= canvasHeight) {
         isJumping = true;
     }
 });
+
+// Handle mouse click events
+canvas.addEventListener('mousedown', () => {
+    if (playerY + player.height >= canvasHeight) {
+        isJumping = true;
+    }
+});
+
 
 // Start the game
 updateGame();
