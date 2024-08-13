@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 // Fixed canvas size for mobile screens
 const canvasWidth = 360;
-const canvasHeight = 600;
+const canvasHeight = 590;
 
 // Set canvas size
 canvas.width = canvasWidth;
