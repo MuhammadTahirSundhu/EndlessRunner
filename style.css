@@ -2,10 +2,31 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #f0f0f0;
+    color: #f0f0f0;
 }
 
 canvas {
     display: block;
     margin: 0 auto;
-    background: #87ceeb;
+    color: #f0f0f0;   
+}
+
+#restartButton {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#restartButton:hover {
+    background-color: darkgreen;
 }
